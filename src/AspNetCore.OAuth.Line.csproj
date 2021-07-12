@@ -17,7 +17,7 @@
     <PackageTags>aspnetcore;net5;authentication;line;oauth;security</PackageTags>
     <Authors>CoCo Lin</Authors>
     <IsPackable>true</IsPackable>
-    <Version>3.1.0</Version>
+    <Version>1.0.0</Version>
     <Description>AspNetCore.OAuth.Line is a LINE authentication security middleware that you can use in your ASP.NET Core application(specially made for version 3.1).</Description>
     <Copyright>Copyright © 2021 CoCo Lin</Copyright>
     <PackageProjectUrl>https://github.com/linmasaki/AspNetCore.OAuth.Line</PackageProjectUrl>
