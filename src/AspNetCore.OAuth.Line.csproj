@@ -22,7 +22,7 @@
     <Copyright>Copyright © 2021 CoCo Lin</Copyright>
     <PackageProjectUrl>https://github.com/linmasaki/AspNetCore.OAuth.Line</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
-    <PackageIconUrl>https://raw.githubusercontent.com/linmasaki/AspNetCore.OAuth.Line/master/Icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/linmasaki/AspNetCore.OAuth.Line/main/Icon.png</PackageIconUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
