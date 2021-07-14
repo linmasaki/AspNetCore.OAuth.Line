@@ -7,8 +7,7 @@
 
 ## Description
 
-**AspNetCore.OAuth.Line** is a LINE authentication security middleware that you can use in your ASP.NET Core application(specially made for version 3.1).
-
+**AspNetCore.OAuth.Line** is a LINE authentication security middleware that you can use in your ASP.NET Core application. It is a reference to *Aspnet-Contrib*'s [AspNet.Security.OAuth.Line](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/tree/dev/src/AspNet.Security.OAuth.Line) to support version 3.1 mainly.
 
 ## Usage
 
