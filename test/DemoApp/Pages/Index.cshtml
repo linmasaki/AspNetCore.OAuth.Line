@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+    @if (string.IsNullOrEmpty(Model.OpenId))
+    {
+        <h1 class="display-2">Welcome</h1>
+        <form asp-page="Index" asp-page-handler="Login" method="post" class="form-horizontal">
+            <button type="submit" class="btn btn-success rounded">LINE Login</button>
+        </form>
+    }
+    else
+    {
+        <h2 class="display-4">
+            Hello!&nbsp;
+            <img src="@Model.PictureUrl" width="100" style="height:auto;" alt="">
+            <span class="text-info font-weight-bold">@Model.Name</span>
+        </h2>
+        <h4 class="">
+            <span class="text-info font-weight-bold">Open ID: </span>@Model.OpenId
+        </h4>
+        <h4 class="">
+            <span class="text-info font-weight-bold">Email: </span>@Model.Email
+        </h4>
+        <a asp-page-handler="Logout">
+            <button type="button" class="btn btn-warning rounded">Logout</button>
+        </a>
+    }
+
+</div>
